@@ -1,0 +1,353 @@
+
+#visual .slider {
+    height: 100vh;
+    background-size: cover;
+}
+#visual .slider.slider1{
+    background-image: url(../images/visual1_main.jpg);
+    background-position: center top;
+}
+#visual .slider.slider2{
+    background-image: url(../images/visual2_main.jpg);
+    background-position: center top;
+}
+#visual .slider.slider3{
+    background-image: url(../images/visual3_main.jpg);
+    background-position: center top;
+}
+#visual .slider.slider4{
+    background-image: url(../images/visual4_main.jpg);
+    background-position: center center;
+}
+
+#visual { 
+    color: #fff; 
+}
+#visual .tit {
+    font-size: 100px;
+    font-weight: 600
+}
+#visual .desc {
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+#visual .slider {
+    padding-top: 300px;
+    box-sizing: border-box
+}
+#visual p {
+    position: relative;
+    top: 50px; opacity: 0;
+    padding-left: 100px;
+    box-sizing: border-box
+}
+#visual .word2 {
+    text-align: center;
+}
+
+#con section {
+    padding: 100px 0;
+    text-align: center;
+}
+
+
+#con .tit {
+    font-size: 48px;
+    color: #222;
+    margin-bottom: 50px;
+    
+    /* 초기값 */
+    position: relative;
+    top: 20px; opacity: 0;
+    
+}
+#con .tit::after {
+    display: block;
+    content: '';
+    width: 70px; height: 5px;
+    background-color: #ffa800;
+    margin: 18px auto;
+    border-radius: 50px;
+}
+#con .desc {
+    font-size: 26px;
+    font-weight: 300;
+    margin-bottom: 50px;
+    
+    /* 초기값 */
+    position: relative;
+    top: 20px; opacity: 0;
+}
+/* con1 */
+#con .con1 .box {
+    width: 80%;
+    max-width: 1044px; height: 426px;
+    background-color: #fff;
+    margin: 0 auto;
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.3);
+    position: relative;
+} 
+#con .con1 .bg {
+    width: 59%; height: 426px;
+    background-size: cover;
+    background-position: center;
+}
+#con .con1 .bg1 { background-image: url(../images/con1_img1.jpg); }
+#con .con1 .bg2 { background-image: url(../images/con1_img2.jpg); }
+#con .con1 .bg3 { background-image: url(../images/con1_img3.jpg); }
+
+#con .con1 .owl-nav button {
+    position: absolute;
+    top: 50%; transform: translateY(-50%);
+    opacity: 0.6;
+    transition: all 0.3s; 
+}
+#con .con1 .owl-nav button:hover {
+    opacity: 1;
+}
+#con .con1 .owl-nav button span {
+    display: block;
+    width: 45px; height: 83px;
+    opacity: 0.6;
+    text-indent: -9999px;
+}
+
+#con .con1 .owl-nav button.owl-prev {
+    left: -8%;
+    background: url(../images/con1_ico1.png);
+}
+
+#con .con1 .owl-nav button.owl-next {
+    right: -8%;
+    background: url(../images/con1_ico2.png);
+}
+#con .con1 .text {
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-align: left;
+    width: 30%;
+    padding: 5%;
+}
+#con .con1 .text .sstit {
+    font-size: 20px;
+    color: #ffa800;
+    margin-bottom: 20px;
+}
+#con .con1 .text .stit {
+    font-size: 34px;
+    margin-bottom: 50px;
+}
+#con .con1 .text .sdesc {
+    line-height: 1.2
+}
+#con .con1 .text .sdesc1 {
+    margin-bottom: 25px;
+}
+/* con1 mobile*/
+#con .con1 .box_list { display: none;  padding-bottom: 50px;}
+#con .con1 .box_list li {
+    width: 200px; height: 200px; 
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 2%;
+    position: relative;
+}
+#con .con1 .box_list p {
+    position: absolute;
+    text-align: center; width: 100%;
+    top: 110%; font-size: 20px; color: #222;
+}
+#con .con1 .box_list li:nth-child(1){background: url(../images/con1_img1.jpg) center center;}
+#con .con1 .box_list li:nth-child(2){background: url(../images/con1_img2.jpg) 200px -80px;}
+#con .con1 .box_list li:nth-child(3){background: url(../images/con1_img3.jpg) center center;}
+#con .con2 {
+    background: #ebebeb;
+}
+#con .con2 .box {
+    max-width: 1044px; height: 100%;
+    display: inline-block;
+    cursor: pointer;
+}
+#con .con2 .box li {
+    float: left;
+    background-color: #000;
+    position: relative;
+    overflow: hidden;
+}
+#con .con2 .box li img {
+    width: 100%; opacity: 0.4;
+    transition: all 0.5s
+}
+#con .con2 .text {
+    position: absolute;
+    top: 50%; left: 50%; transform: translate(-50%,-50%);
+    color: #fff;
+    font-size: 32px;
+    line-height: 1.4;
+}
+#con .con2 .text .stit {
+    margin-bottom: 20px;
+}
+#con .con2 .box .text .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    font-size: 17px; 
+    line-height: 20px;
+    transition: all 0.3s;
+}
+#con .con2 .text .btn:hover {
+    background-color: #fff;
+    color: #222
+}
+
+#con .con2 .text strong {
+    font-size: 40px; font-weight: 500;
+}
+#con .con2 .text .one { color: #ff7676 }
+#con .con2 .text .two { color: #62c643 }    
+#con .con2 .text .three { color: #7da9d6 }
+#con .con3 {
+    padding: 0;
+    width: 100%; height: 462px;
+    color: #fff;
+    background: url(../images/con3_bg.png) fixed center top;
+    background-size: cover; 
+    position: relative;
+}
+
+/* con2 mobile */
+#con .con2 .m_box { color: #fff;  display: none; }
+#con .con2 .m_box .box_wrap { 
+    width: 100%; height: 100%; 
+    background-color: rgba(0, 0, 0, 0.47)
+}
+#con .con2 .m_box>ul { overflow: hidden; }
+#con .con2 .m_box>ul>li {
+    width: 100%; height: 150px;
+    margin-bottom: 20px; 
+    cursor: pointer;
+    position: relative; opacity: 0.7;
+    transition: all 0.3s;
+}
+#con .con2 .m_box>ul>li:hover {
+    transform: scale(1.2)
+}
+#con .con2 .m_box>ul>li:first-child {
+    background: url(../images/con2_bg_m.jpg) center center;
+}
+#con .con2 .m_box .stit {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+#con .con2 .m_box .btn {
+    display: inline-block;
+    padding: 8px 40px; 
+    padding-left: 20px;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    background: url(../images/con3_ico_main.png) no-repeat 75px center;
+    background-size: 17px;
+    transition: all 0.3s;
+}
+#con .con2 .m_box .btn:hover {
+    background-color: #fff; color: #666; 
+    background-image: url(../images/con3_ico_over.png);
+}
+#con .con2 .m_box>ul>li:last-child {
+    background: url(../images/con2_bg2_m.jpg) center center;
+    background-size: 672px 400px;
+}
+#con .con3 .box {
+    position: absolute;
+    left: 0; top: 100px;;
+    width: 100%; height: 100%; z-index: 2;
+}
+#con .con3 .bg {
+    background: #000; opacity: 0.7; height: 100%;
+}
+
+#con .con3 .tit { color: #fff; }
+#con .con3 .desc { font-size: 35px;}
+#con .con3 .btn a {
+    display: inline-block;
+    padding: 15px 50px;
+    box-sizing: border-box;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    background: url(../images/con3_ico_main.png) no-repeat 100px;
+    padding-left: 30px; padding-right: 60px;
+    font-size: 20px;
+    transition: all 0.3s;
+}
+#con .con3 .btn a:hover {
+    background-color: #fff;
+    color: #666;
+    background-image: url(../images/con3_ico_over.png);
+}
+#con .con4 .list li {
+    display: inline-block;
+    width: 365px; height: 100%;
+    background: #fff;
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.3);
+    margin: 0 2%;
+    vertical-align: top;
+    
+    /* 초기값 */
+    opacity: 0;
+    position: relative; top: 40px;
+}
+#con .con4 .list li img { width: 100%; }
+#con .con4 .word {
+    text-align: left;
+    padding: 30px;
+}
+#con .con4 .stit {
+    font-size: 22px;
+    font-weight: 600;
+    color: #222;
+    margin-bottom: 25px;
+    line-height: 1.4;
+}
+#con .con4 .sdesc {
+    margin-bottom: 30px;
+    line-height: 1.4;
+}
+#con .con4 .sdesc:hover {
+    text-decoration: underline;
+}
+#con .con4 .date {
+    font-size: 15px;
+}
+#con .con4 .list li:last-child .sdesc {
+    padding-top: 30px;
+}
+
+/* con4 mobile */
+#con .con4 .m_list {display: none; }
+#con .con4 .m_list>li {
+    border-top: 1px solid #e6e6e6;
+    padding: 30px 0;
+}
+#con .con4 .m_list>li>ul { overflow: hidden; }
+#con .con4 .m_list>li>ul>li {
+    width: 40%; 
+}
+#con .con4 .m_list>li>ul {
+    position: relative;
+}
+#con .con4 .m_list img { width: 110%; float: left; }
+#con .con4 .m_list .text { 
+    text-align: left; float: left;
+    position: absolute; right: 0;
+    top: 20px;
+    width: 50%;
+}
+#con .con4 .m_list .news { 
+    color: #ffa800;
+    margin-bottom: 20px;
+}
+#con .con4 .m_list .stit { font-size: 17px; }
+#con .con4 .m_list .date { font-size: 14px; }

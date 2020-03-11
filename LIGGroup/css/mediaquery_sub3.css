@@ -1,0 +1,66 @@
+@media screen and (max-width: 1024px) {
+    #con .tit { padding-top: 80px; }
+    #con .stit { padding-top: 80px; }
+    .con2 { padding-bottom: 80px; }
+    .con1 .con1_box { height: 354px; }
+    .con1 .bg { height: 354px; }
+}
+@media screen and (max-width: 768px) {
+    #visual { height: 280px; }
+    #visual .tit { padding-top: 164px; }
+    #con .tit { padding-top: 50px; font-size: 40px;}
+    #con .stit { padding-top: 50px; }
+    #con .sdesc { font-size: 23px; }
+    .con1 .list li img { width: 165px; }
+    .con1 .desc { font-size: 18px; }
+    .con1 .con1_box { height: 248px; }
+    .con1 .bg { height: 248px; }
+    .con2 { padding-bottom: 50px; }
+    .con2 .con_list .list>li { width: 100%; margin: 0; }
+    .con2 .con_list .list .detail { width: 85%; }
+}
+@media screen and (max-width: 480px) {
+    #visual .tit { 
+        font-size: 37px; 
+        padding-top: 160px;
+    }
+    #con .tit { font-size: 37px; }
+    #con .stit { font-size: 30px; }
+    #con .sdesc { font-size: 18px; }
+    .pc_text { display: none; }
+    .m_text { display: block; }
+    .con1 .list { margin-bottom: 20px; }
+    .con1 .list li { width: 100%; 
+        margin: 0; margin-bottom: 5%; 
+    }
+    .con1 .list li img { width: 120px; }
+    .con1 .text .one { font-size: 27px; }
+    .con1 .text .two { font-size: 25px; }
+    .con2 .con_list .list .detail { width: 88%; }
+    .con2 .con_list .list .sstit { font-size: 22px; }
+    .con2 .con_list .list .ssdesc { font-size: 16px; }
+    .con1 .desc { margin-bottom: 30px;  }
+    .con1 .con1_box { height: 200px; margin-top: 48px; }
+
+}
+@media screen and (min-width: 320px) and (max-width: 375px) {
+    #visual { 
+        height: 230px; 
+    }
+    #visual .tit { 
+        font-size: 32px; 
+        padding-top: 140px;
+    }
+    .navi { height: 40px; }
+    .navi .menu li.home { width: 40px; height: 40px; }
+    .navi .menu .text { font-size: 15px; }
+    .navi .menu>li>a { line-height: 40px; }
+        
+    #con .tit { font-size: 30px; }
+    #con .stit { font-size: 22px; }
+    
+    .con1 .desc { font-size: 14px; margin-bottom: 20px;}
+    .con1 .text .one { font-size: 23px; }
+    .con1 .text .two { font-size: 20px; }
+    .con1 .con1_box { height: 158px; margin-top: 40px; }
+}

@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Untitled Document</title>
+    <link href="css/reset.css" rel="stylesheet">
+    <style>
+        body {
+            background: #ad0ac3;
+            font-size: 100px;
+            text-align: center;
+            padding-top: 200px;
+            color: #fff;
+        }
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>
+        $(function(){
+            
+            // alert('p')
+            
+            $(window).resize(function(){
+                
+                location.reload()
+            })
+                
+            var myWinWidth = $(window).width()
+
+            if(myWinWidth >= 768 && myWinWidth < 1024) {
+
+                $('body').css('background','#f90')
+                $('.text').text('768 - 1024')
+
+            }
+                
+            if(myWinWidth >= 480 && myWinWidth < 768) {
+
+                $('body').css('background','#00fff5')
+                $('.text').text('480 - 767')
+
+            }
+            
+            if(myWinWidth < 480){
+                $('body').css('background','#92b45b')
+                $('.text').text('480이하')
+            }
+ 
+            
+        })
+    </script>
+</head>
+<body>
+
+
+    <p class="text">1024 이상</p>
+    
+
+</body>
+</html>

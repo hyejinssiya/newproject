@@ -1,0 +1,155 @@
+@media screen and (max-width: 1024px) {
+    .tab_con .tbcon { padding: 80px 0; }
+    .tab_con .con1 { padding-bottom: 80px;}
+    .tab_con .content>li:nth-child(1){ left: -1%; }
+    .tab_con .content>li:nth-child(2){ left: 70%; }
+    .tab_con .content>li:nth-child(3){ left: -1%; }
+    .tab_con .content>li:nth-child(4){ left: 70%; }
+    .tab_con .m_con1 { display: none }
+    .tab_con .con3 { padding-bottom: 0; }
+    .tab_con .benefit li { width: 43%; }
+    .tab_con .edu dl { margin-top: 24px;}
+    .tab_con .edu dd { font-size: 15px; }
+    .tab_con .edu li:last-child { margin-bottom: 0; }
+} /* // 1024 */
+
+@media screen and (max-width: 768px) {
+    #visual { height: 280px; }
+    #visual .tit { padding-top: 164px; }
+    
+    #con .tit { padding-top: 50px; font-size: 40px; }
+    #con .stit { padding-top: 50px; }
+    #con .sdesc { font-size: 23px; }
+    
+    .tab_menu { width: 65%; font-size: 15px; }
+    
+    .tab_con .con_desc { font-size: 20px; margin-bottom: 50px; }
+    .tab_con .content { display: none }
+    .tab_con .m_con1 { display: block }
+    
+    .tab_con .con2 .round li { 
+        padding: 35px 20px; 
+        vertical-align: middle;
+    }
+    .tab_con .con2 .round li:nth-child(1),
+    .tab_con .con2 .round li:nth-child(3) {
+        width: 180px; height: 180px; 
+        position: relative;
+        z-index: 2;
+    }
+    .tab_con .con2 .round li:nth-child(2) { 
+        width: 250px; height: 250px; 
+        padding-top: 50px;
+    }
+    .tab_con .con3 li { width: 27%; }
+    
+    .tab_con .benefit li { width: 47%; }
+    .tab_con .benefit li .ssdesc { font-size: 14px; }
+    
+    .tab_con .edu dl { margin-top: 5px;}
+    .tab_con .edu dt { margin-bottom: 10px; font-size: 22px; }
+    .tab_con .edu .edu_desc { margin-top: 10px; font-size: 13px; }
+} /* // 768 */
+
+@media screen and (max-width: 480px) { 
+    #visual { background: url(../images/sub2/images/visual_sub2_1920.jpg); 
+    background-size: cover;}
+    #visual .tit { 
+        font-size: 37px; 
+        padding-top: 160px;
+    }
+    
+    #con .tit { font-size: 37px; }
+    #con .stit { font-size: 30px; }
+    .tab_con .con_tit { font-size: 30px; }
+    
+    .pc_text { display: none; }
+    .m_text { display: block; }
+    .tab_con .tbcon { padding: 40px 0; }
+    .tab_con .con_desc { font-size: 17px;}
+    
+    .tab_con .m_con1 .text>li dt { font-size: 25px; }
+    .tab_con .m_con1 .text>li dd { width: 70%; font-size: 22px; }
+    .tab_con .m_con1 .text>li:nth-child(1) {
+        width: 150px; height: 150px; 
+        padding: 33px;
+    }
+    .tab_con .m_con1 .text>li .number { font-size: 40px; }
+    .tab_con .m_con1>li .ico { background-size: 50px; }
+    .tab_con .con2 { overflow: hidden; }
+    .tab_con .con2 .round li:nth-child(2) { width: 200px; height: 200px; }
+    .tab_con .con2 .round li:nth-child(1),
+    .tab_con .con2 .round li:nth-child(3) { width: 144px; height: 144px; }
+    .tab_con .con2 .round li img { width: 40px; }
+    .tab_con .con2 .round li .c_tit { font-size: 25px; }
+    .tab_con .con2 .round li .r_desc { font-size: 12px; }
+    
+    .tab_con .con3 { padding-bottom: 0 }
+    .tab_con .con3 .ssdesc { font-size: 17px; }
+    .tab_con .con3 .img { margin-bottom: 20px; }
+    .tab_con .con3 li { 
+        width: 63%;
+        margin-bottom: 40px;    
+    }
+    .tab_con .benefit li {
+        text-align: center; 
+        width: 42%; margin: 3%; 
+    }
+    .tab_con .benefit li .ssdesc { 
+        display: inline-block; 
+        font-size: 14px; margin: 0;
+    }
+    .tab_con .benefit li img { margin-bottom: 15px; }
+    .tab_con .edu { width: 80%; }
+    .tab_con .edu li .img img { width: 100%; margin-bottom: 30px; }
+    .tab_con .edu dl { width: 100%; margin-left: 10px; }     
+} /* // 480 */
+
+@media screen and (min-width: 320px) and (max-width: 375px) {
+    #visual { 
+        height: 230px; 
+    }
+    #visual .tit { 
+        font-size: 32px; 
+        padding-top: 140px;
+    }
+    .navi { height: 40px; }
+    .navi .menu li.home { width: 40px; height: 40px; }
+    .navi .menu .text { font-size: 15px; }
+    .navi .menu>li>a { line-height: 40px; }
+        
+    #con .tit { font-size: 30px; }
+    #con .stit { font-size: 22px; }
+    
+    .tab_menu { font-size: 13px; width: 72%; }
+    
+    .tab_con .tbcon { padding: 30px 0; }
+    .tab_con .con_tit { font-size: 22px; }
+    .tab_con .con_desc { margin-bottom: 30px; }    
+    .tab_con .m_con1 .text>li dt { font-size: 20px; }
+    .tab_con .m_con1 .text>li dd { font-size: 18px; width: 80% }
+    
+    .tab_con .con2 .round li { 
+        vertical-align: middle; 
+        padding: 40px 0;
+        margin: -3%;
+    }
+    .tab_con .con2 .round li:nth-child(1) {
+        width: 100px; height: 100px; 
+        position: relative;
+        z-index: 2;
+    }
+    .tab_con .con2 .round li:nth-child(2) { 
+        width: 150px; height: 150px; 
+        padding-top: 30px;
+    }
+    .tab_con .con2 .round li:nth-child(3) {
+        width: 100px; height: 100px;
+    }
+    .tab_con .con2 .round li img { width: 35px; }
+    .tab_con .con2 .round li .r_tit { font-size: 20px; }
+    .tab_con .con2 .round li .c_tit { font-size: 23px;}
+    .tab_con .con2 .round li .r_desc { display: none; }
+    
+    .tab_con .benefit li .ssdesc { margin-left: 0; font-size: 11px; }
+} /* // 375 */

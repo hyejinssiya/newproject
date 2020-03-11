@@ -1,0 +1,163 @@
+@media screen and (max-width: 1024px) {
+    #visual .slider {
+        padding-top: 350px;
+        padding-right: 100px;
+    }
+    #visual .slider.slider1 { background-position: -800px center}
+    #visual .slider.slider2 { background-position: right center}
+    #visual .word {
+        text-align: center;
+    }
+    #visual .tit { font-size: 90px }
+    
+    #con .con1 .text .stit {
+        font-size: 30px;
+        margin-bottom: 25px;
+    }
+    #con .con1 .text .sdesc { font-size: 16px; }
+    #con .con1 .text .sdesc1 { margin-bottom: 10px; }
+    #con .con2 .box li { width: 50%; } 
+    #con .con1 .bg1 { background-position: 100%}
+    #con .con2 .text { font-size: 23px; }
+    #con .con2 .text strong { font-size:  33px; }
+    #con .con4 .list li {
+        width: 29%; height: 400px;
+    }
+    #con .con4 .stit { font-size: 14px; }
+    #con .con4 .sdesc { font-size: 12px; }
+    #con .con4 .list li:last-child .sdesc { padding-top: 18px;
+    }
+    #con .con4 .date { font-size: 12px; }
+}
+
+@media screen and (max-width: 768px) {
+    #visual .slider { height: 900px; }
+    #visual .slider.slider1 { background-position: -1000px top}
+    #visual .tit {  font-size: 64px }
+    #visual .desc { font-size: 28px }
+
+    #con section { padding: 50px 0; }
+    #con .tit { 
+        font-size: 35px;
+        margin-bottom: 30px;
+    }
+    #con .desc { font-size: 23px; }
+   
+    #con .con1 .box_list { display: block; }
+    #con .con1 .box_list li:nth-child(1) { background-size: cover; }
+    #con .con1 .box_list li:nth-child(2) { 
+        background-size: cover; 
+        background-position: 10px center;
+    } 
+    #con .con1 .box_list li:nth-child(3) { background-size: cover; }
+    
+    #con .con2 .box li { float: none; width: 100%; } 
+    #con .con2 .text { font-size: 18px; }
+    #con .con2 .text strong { font-size:  23px; }
+    
+    #con .con3 { height: 310px;}
+    #con .con3 .box { top: 50px; }
+    #con .con3 .desc { 
+        font-size: 30px;
+        margin: 35px;
+    }
+    #con .con3 .btn a {
+        padding: 12px 40px;
+        padding-left: 23px;
+        background-position: 83px center;
+    }
+    #con .con4 .m_list>li:last-child { padding-bottom: 0; }
+    #con .con1 .box { display: none; }
+    #con .con2 .box { display: none; }
+    #con .con2 .m_box { display: block; }
+    #con .con4 .list { display: none; }
+    #con .con4 .m_list { display: block; }
+}
+
+@media screen and (max-width: 480px) {
+    #visual  { position: relative; }
+    #visual p { padding-left: 0 }
+    #visual .slider { height: 560px; }
+    #visual .slider.slider1 { background-position: 600px center}
+    #visual .tit {  font-size: 45px }
+    #visual .desc { font-size: 22px }
+    #visual .word { 
+        position: absolute; 
+        top: 50%; left: 50%; 
+        transform: translate(-50%,-50%); 
+        width: 100%;
+    }
+    
+    #con section { padding: 30px 0; }
+    #con .tit { 
+        font-size: 25px; 
+        margin-bottom: 20px;
+    }
+    #con .desc { 
+        font-size: 16px; 
+    }
+    #con .con1 .box_list li {
+        width: 50%; height: 240px;
+        margin-bottom: 70px;
+    }
+    #con .con1 .box_list li:last-child { margin-bottom: 0; }
+    #con .con2 .m_box .stit { font-size: 20px;}
+    #con .con2 .m_box>ul>li { height: 125px; }
+    #con .con2 .m_box .btn {
+    padding: 2px 20px;
+    padding-left: 11px;
+    border-radius: 50px;
+    background-position: 54px center;
+    background-size: 15px;
+    font-size: 15px; 
+    }
+    
+    #con .con3 { height: 230px; }
+    #con .con3 .box { top: 30px; }
+    #con .con3 .desc { 
+        font-size: 20px;
+        margin: 30px;
+    }
+    #con .con3 .btn a {
+    padding: 6px 27px;
+    padding-left: 14px;
+    background-position: 63px center;
+    font-size: 17px;
+    background-size: 16px;
+    }
+    
+    #con .con4 .tit { margin-bottom: 30px;}
+    #con .con4 .m_list .text { top: 0; }
+    #con .con4 .stit { margin-bottom: 10px; }
+    #con .con4 .m_list .stit { font-size: 15px; }
+    #con .con4 .m_list .date { font-size: 12px; }
+    
+} 
+
+@media screen and (min-width: 320px) and (max-width: 375px) {
+    #visual .slider.slider2 { background-position: 500px center}
+    #visual .tit {  font-size: 36px }
+    #visual .desc { font-size: 17px }
+    
+    #con section { padding: 30px 0; }
+    #con section:last-child { 
+        padding: 0; padding-top: 30px;}
+    #con .desc { font-size: 18px;}
+    #con .con1 .box_list li {
+        width: 60%; height: 216px;
+        margin-bottom: 70px;
+    }
+    
+    #con .con3 { height: 230px; }
+    #con .con3 .box { top: 25px; }
+    #con .con3 .desc { font-size: 15px; }
+    
+    #con .con4 .m_list>li:last-child { padding-bottom: 30px;; }
+
+    #con .con4 .m_list .news { 
+        font-size: 12px; 
+        margin-bottom: 8px;
+    }
+    #con .con4 .m_list .stit { font-size: 14px; }
+    #con .con4 .m_list .date { display: none; }
+}

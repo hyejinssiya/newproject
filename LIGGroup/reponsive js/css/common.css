@@ -1,0 +1,38 @@
+/* Common */
+.clearfix::after {
+	content:'';
+	display: block;
+	clear: both;
+}
+.wrapper {
+	max-width:;
+    margin:0 auto;
+    position: relative
+}
+.hide {
+	display: none
+}
+
+html {
+    font-size: ;
+}
+body {
+    
+    font-family:;
+    font-size:;
+    color: ;
+}
+
+/*** header ***/
+
+
+
+/*** footer ***/
+
+
+
+
+
+
+
+
